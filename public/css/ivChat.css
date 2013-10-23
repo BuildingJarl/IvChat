@@ -1,0 +1,28 @@
+html
+{
+	font-size: 1em;
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	color: white;
+	background-color: #272822;
+}
+
+
+.Container
+{
+	width:500px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#GoButton
+{
+	display: block;
+	border-color: #E88726;
+	border-radius: 100px;
+	background-color: brown;
+	color: #E88726;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+}

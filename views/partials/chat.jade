@@ -1,0 +1,25 @@
+//-container
+div(class='Container')
+	
+	div(ng-show="init")
+		h1
+			| Please specify a nickname
+
+		input( type='text' ng-model='nickInput')
+		button(ng-click="changeNickname()", id='GoButton') Go
+
+	div(ng-hide="init")
+		//-Chat enteries
+		div
+			ul
+				li(ng-repeat="message in conversation")
+					span
+						{{message.nickname}} 
+					span
+						{{message.message}}
+
+		//-Chat controlls
+		div
+			input(type='text' ng-model="message")
+			button(ng-click="sendMessage()") Send
+
