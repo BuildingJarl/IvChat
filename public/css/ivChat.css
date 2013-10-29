@@ -15,6 +15,18 @@ html
 	margin-left: auto;
 }
 
+.ChatMessageContainer 
+{
+	
+}
+
+
+.ChatMessageContainer ul
+{
+	list-style: none;
+	background-color: green;
+}
+
 #GoButton
 {
 	display: block;

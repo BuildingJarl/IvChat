@@ -10,12 +10,12 @@ div(class='Container')
 
 	div(ng-hide="init")
 		//-Chat enteries
-		div
+		div(class="ChatMessageContainer")
 			ul
 				li(ng-repeat="message in conversation")
-					span
+					div
 						{{message.nickname}} 
-					span
+					div
 						{{message.message}}
 
 		//-Chat controlls
